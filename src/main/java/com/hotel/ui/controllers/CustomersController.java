@@ -109,6 +109,7 @@ public class CustomersController {
     // Customers Table
     // -------------------------------------------------------
     @SuppressWarnings("unchecked")
+
     private TableView<Customer> buildCustomersTable() {
         TableView<Customer> table = new TableView<>();
         table.getStyleClass().add("data-table");
